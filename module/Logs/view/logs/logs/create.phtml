@@ -1,0 +1,80 @@
+<div class="row">
+
+	<?=$this->form()->openTag($this->form);?>
+
+		<div class="panel panel-default">
+			
+			<div class="panel-heading">
+				<?=$this->translate('Logs');?>
+			</div>
+
+			<div class="panel-body">
+
+				<div class="alert alert-info" role="alert">
+					<?=$this->translate('New log of use from registered lines in the system.');?>
+				</div>
+
+						<?=$this->formLabel	 ($form->get('usuario'));?>
+						<?=$this->formElement($form->get('usuario'));?>
+
+					<br />
+
+						<?php
+							if($this->formElementErrors($form->get('usuario')))
+							{
+								?>
+									<div class="alert alert-danger" role="alert">
+										<?=$this->formElementErrors($form->get('usuario'));?>
+									</div>
+								<?php
+							}
+						?>
+
+				<br />
+
+						<?=$this->formLabel	 ($form->get('utilizacao'));?>
+						<?=$this->formElement($form->get('utilizacao'));?>
+
+					<br />
+
+						<?php
+							if($this->formElementErrors($form->get('utilizacao')))
+							{
+								?>
+									<div class="alert alert-danger" role="alert">
+										<?=$this->formElementErrors($form->get('utilizacao'));?>
+									</div>
+								<?php
+							}
+						?>
+
+				<br />
+
+						<?=$this->formLabel  ($form->get('situacao'));?>
+						<?=$this->formElement($form->get('situacao'));?>
+
+					<br />
+
+						<?php
+							if($this->formElementErrors($form->get('situacao')))
+							{
+								?>
+									<div class="alert alert-danger" role="alert">
+										<?=$this->formElementErrors($form->get('situacao'));?>
+									</div>
+								<?php
+							}
+						?>
+
+			</div>
+
+		</div>
+
+		<div class="pull-right">
+			<button type="submit" class="btn btn-success" data-loading-text="<?=$this->translate('Loading...');?>"><?=$this->translate('Save Register');?></button>
+			<a href="<?=$this->url('logs', array('action' => 'read'  ));?>" class="btn btn-default"><?=$this->translate('Cancel');?></a>
+		</div>
+
+	<?=$this->form()->closeTag();?>
+
+</div>

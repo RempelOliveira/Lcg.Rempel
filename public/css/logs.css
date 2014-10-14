@@ -1,0 +1,23 @@
+#btns
+{
+	height: 64px;
+
+}
+
+#grid
+{}
+
+#grid .panel>.panel-body+.table,
+#grid .panel>.panel-body+.table-responsive
+{
+	border-top: none;
+
+}
+
+#grid .panel>.panel-body+.table td, #grid .panel>.panel-body+.table th,
+#grid .panel>.panel-body+.table-responsive td, #grid .panel>.panel-body+.table-responsive th
+{
+	padding-left : 30px;
+	padding-right: 30px;
+
+}

@@ -1,0 +1,186 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: ZendSkeletonApplication\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2014-10-14 17:43-0300\n"
+"PO-Revision-Date: 2014-10-14 17:44-0300\n"
+"Last-Translator: Guilherme Rempel de Oliveira <rempel.oliveira@yahoo.com."
+"br>\n"
+"Language-Team: ZF Contibutors <zf-devteam@zend.com>\n"
+"Language: pt\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-KeywordsList: translate\n"
+"X-Poedit-Basepath: .\n"
+"X-Generator: Poedit 1.6.9\n"
+"X-Poedit-SearchPath-0: ..\n"
+
+#: ../src/Logs/Form/LogsForm.php:43 ../view/logs/logs/read.phtml:50
+msgid "User"
+msgstr "Usuário"
+
+#: ../src/Logs/Form/LogsForm.php:56 ../view/logs/logs/read.phtml:53
+msgid "Use"
+msgstr "Utilização"
+
+#: ../src/Logs/Form/LogsForm.php:70 ../view/logs/logs/read.phtml:56
+msgid "Status"
+msgstr "Situação"
+
+#: ../src/Logs/Form/LogsValidator.php:59
+msgid "Value is required and can'\\t be empty."
+msgstr "Valor é necessário e não pode estar vazio."
+
+#: ../src/Logs/Form/LogsValidator.php:70
+msgid "The input is more than 250 characters long."
+msgstr "A entrada é mais do que 250 caracteres."
+
+#: ../src/Logs/Form/LogsValidator.php:90
+#: ../src/Logs/Form/LogsValidator.php:110
+msgid "Invalid option."
+msgstr "Opção inválida."
+
+#: ../src/Logs/Model/Logs.php:34
+msgid "New Line"
+msgstr "Nova Linha"
+
+#: ../src/Logs/Model/Logs.php:35
+msgid "Stock"
+msgstr "Estoque"
+
+#: ../src/Logs/Model/Logs.php:36
+msgid "In Use"
+msgstr "Em Uso"
+
+#: ../src/Logs/Model/Logs.php:37
+msgid "Canceled"
+msgstr "Canelado"
+
+#: ../src/Logs/Model/Logs.php:41
+msgid "Business"
+msgstr "Empresarial"
+
+#: ../src/Logs/Model/Logs.php:42
+msgid "Private"
+msgstr "Particular"
+
+#: ../view/error/404.phtml:1
+msgid "A 404 error occurred"
+msgstr "Ocorreu um erro 404"
+
+#: ../view/error/404.phtml:10
+msgid "The requested controller was unable to dispatch the request."
+msgstr "O controlador requisitado não foi capaz de despachar a requisição."
+
+#: ../view/error/404.phtml:13
+msgid ""
+"The requested controller could not be mapped to an existing controller class."
+msgstr ""
+"O controlador requisitados não pode ser mapeado a uma classe de controlador "
+"existente."
+
+#: ../view/error/404.phtml:16
+msgid "The requested controller was not dispatchable."
+msgstr "O controlador requisitado não foi despachado."
+
+#: ../view/error/404.phtml:19
+msgid "The requested URL could not be matched by routing."
+msgstr "A URL requisitada não pode ser encontrada em uma rota."
+
+#: ../view/error/404.phtml:22
+msgid "We cannot determine at this time why a 404 was generated."
+msgstr "Não foi possível determinar o motivo do 404 ter ocorrido."
+
+#: ../view/error/404.phtml:34
+msgid "Controller"
+msgstr "Controlador"
+
+#: ../view/error/404.phtml:41
+#, php-format
+msgid "resolves to %s"
+msgstr "resolve como %s"
+
+#: ../view/error/404.phtml:53 ../view/error/index.phtml:8
+msgid "Additional information"
+msgstr "Informação adicional"
+
+#: ../view/error/404.phtml:56 ../view/error/404.phtml:80
+#: ../view/error/index.phtml:11 ../view/error/index.phtml:35
+msgid "File"
+msgstr "Arquivo"
+
+#: ../view/error/404.phtml:60 ../view/error/404.phtml:84
+#: ../view/error/index.phtml:15 ../view/error/index.phtml:39
+msgid "Message"
+msgstr "Mensagem"
+
+#: ../view/error/404.phtml:64 ../view/error/404.phtml:88
+#: ../view/error/index.phtml:19 ../view/error/index.phtml:43
+msgid "Stack trace"
+msgstr "Pilha de execução"
+
+#: ../view/error/404.phtml:74 ../view/error/index.phtml:29
+msgid "Previous exceptions"
+msgstr "Exceções anteriores"
+
+#: ../view/error/404.phtml:103 ../view/error/index.phtml:58
+msgid "No Exception available"
+msgstr "Nenhuma exceção disponível"
+
+#: ../view/error/index.phtml:1
+msgid "An error occurred"
+msgstr "Ocorreu um erro"
+
+#: ../view/layout/layout.phtml:6 ../view/layout/layout.phtml:44
+#: ../view/layout/layout.phtml:58
+msgid "LCG Test"
+msgstr "Teste LCG"
+
+#: ../view/layout/layout.phtml:48
+msgid "Home"
+msgstr "Início"
+
+#: ../view/logs/logs/create.phtml:8 ../view/logs/logs/read.phtml:28
+msgid "Logs"
+msgstr "Logs"
+
+#: ../view/logs/logs/create.phtml:14
+msgid "New log of use from registered lines in the system."
+msgstr "Novo log de uso das linhas registradas no sistema."
+
+#: ../view/logs/logs/create.phtml:74
+msgid "Loading..."
+msgstr "Carregando..."
+
+#: ../view/logs/logs/create.phtml:74
+msgid "Save Register"
+msgstr "Salvar Registro"
+
+#: ../view/logs/logs/create.phtml:75
+msgid "Cancel"
+msgstr "Canelar"
+
+#: ../view/logs/logs/read.phtml:10
+msgid "Save successful."
+msgstr "Registro cadastrado com sucesso."
+
+#: ../view/logs/logs/read.phtml:19
+msgid "New Register"
+msgstr "Novo Registro"
+
+#: ../view/logs/logs/read.phtml:33
+msgid "Log of use from registered lines in the system."
+msgstr "Log de uso das linhas registradas no sistema."
+
+#: ../view/logs/logs/read.phtml:59
+msgid "Date and Time - Start"
+msgstr "Data e Hora - Início"
+
+#: ../view/logs/logs/read.phtml:62
+msgid "Date and Time - End"
+msgstr "Data e Hora - Fim"
+
+#: ../view/logs/logs/read.phtml:98
+msgid "No record found."
+msgstr "Nenhum registro encontrado."
