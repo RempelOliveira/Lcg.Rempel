@@ -1,12 +1,12 @@
 msgid ""
 msgstr ""
-"Project-Id-Version: ZendSkeletonApplication\n"
+"Project-Id-Version: Teste LCG\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-10-14 17:43-0300\n"
-"PO-Revision-Date: 2014-10-14 17:44-0300\n"
+"POT-Creation-Date: 2014-10-14 20:35-0300\n"
+"PO-Revision-Date: 2014-10-14 20:36-0300\n"
 "Last-Translator: Guilherme Rempel de Oliveira <rempel.oliveira@yahoo.com."
 "br>\n"
-"Language-Team: ZF Contibutors <zf-devteam@zend.com>\n"
+"Language-Team: Guilherme Rempel de Oliveira <rempel.oliveira@yahoo.com.br>\n"
 "Language: pt\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -16,28 +16,28 @@ msgstr ""
 "X-Generator: Poedit 1.6.9\n"
 "X-Poedit-SearchPath-0: ..\n"
 
-#: ../src/Logs/Form/LogsForm.php:43 ../view/logs/logs/read.phtml:50
+#: ../src/Logs/Form/LogsForm.php:42 ../view/logs/logs/read.phtml:50
 msgid "User"
 msgstr "Usuário"
 
-#: ../src/Logs/Form/LogsForm.php:56 ../view/logs/logs/read.phtml:53
+#: ../src/Logs/Form/LogsForm.php:55 ../view/logs/logs/read.phtml:53
 msgid "Use"
 msgstr "Utilização"
 
-#: ../src/Logs/Form/LogsForm.php:70 ../view/logs/logs/read.phtml:56
+#: ../src/Logs/Form/LogsForm.php:69 ../view/logs/logs/read.phtml:56
 msgid "Status"
 msgstr "Situação"
 
-#: ../src/Logs/Form/LogsValidator.php:59
+#: ../src/Logs/Form/LogsValidator.php:60
 msgid "Value is required and can'\\t be empty."
 msgstr "Valor é necessário e não pode estar vazio."
 
-#: ../src/Logs/Form/LogsValidator.php:70
+#: ../src/Logs/Form/LogsValidator.php:71
 msgid "The input is more than 250 characters long."
 msgstr "A entrada é mais do que 250 caracteres."
 
-#: ../src/Logs/Form/LogsValidator.php:90
-#: ../src/Logs/Form/LogsValidator.php:110
+#: ../src/Logs/Form/LogsValidator.php:91
+#: ../src/Logs/Form/LogsValidator.php:111
 msgid "Invalid option."
 msgstr "Opção inválida."
 
@@ -55,7 +55,7 @@ msgstr "Em Uso"
 
 #: ../src/Logs/Model/Logs.php:37
 msgid "Canceled"
-msgstr "Canelado"
+msgstr "Cancelado"
 
 #: ../src/Logs/Model/Logs.php:41
 msgid "Business"
@@ -137,13 +137,18 @@ msgstr "Ocorreu um erro"
 msgid "LCG Test"
 msgstr "Teste LCG"
 
-#: ../view/layout/layout.phtml:48
-msgid "Home"
-msgstr "Início"
-
-#: ../view/logs/logs/create.phtml:8 ../view/logs/logs/read.phtml:28
+#: ../view/layout/layout.phtml:48 ../view/logs/logs/create.phtml:8
+#: ../view/logs/logs/read.phtml:28
 msgid "Logs"
 msgstr "Logs"
+
+#: ../view/layout/layout.phtml:62
+msgid "First"
+msgstr "Primeiro"
+
+#: ../view/layout/layout.phtml:62
+msgid "Last"
+msgstr "Último"
 
 #: ../view/logs/logs/create.phtml:14
 msgid "New log of use from registered lines in the system."

@@ -36,7 +36,6 @@ class LogsForm extends Form
             'type' => 'Zend\Form\Element\Text',
             'attributes' => array(
                 'class'		  => 'form-control',
-				'required' 	  => (($_POST['situacao'] == 3) ? true : false),
 				'placeholder' => '...',
             ),
             'options' => array(

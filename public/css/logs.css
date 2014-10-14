@@ -1,3 +1,9 @@
+body
+{
+	min-width: 480px;
+
+}
+
 #btns
 {
 	height: 64px;
@@ -17,6 +23,7 @@
 #grid .panel>.panel-body+.table td, #grid .panel>.panel-body+.table th,
 #grid .panel>.panel-body+.table-responsive td, #grid .panel>.panel-body+.table-responsive th
 {
+	white-space  : nowrap;
 	padding-left : 30px;
 	padding-right: 30px;
 

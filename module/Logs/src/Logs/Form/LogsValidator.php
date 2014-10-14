@@ -46,8 +46,9 @@ class LogsValidator implements InputFilterAwareInterface
 
 			$inputFilter->add($factory->createInput(
 			[
-				'name' => 'usuario',
-				'filters' => array(
+				'name' 	   => 'usuario',
+				'required' => (($_POST['situacao'] == 3) ? true : false),
+				'filters'  => array(
 					array('name' => 'StripTags'),
 					array('name' => 'StringTrim'),
 				),

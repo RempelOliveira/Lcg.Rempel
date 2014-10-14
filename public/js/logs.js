@@ -4,18 +4,18 @@ $(function()
 	({
 		breakpoints:
 		{
-			phone : 480,
-			tablet: 700
+			phone : 600,
+			tablet: 800
 
 		},
 
 		delay       : 100,
 		addRowToggle: true,
 
-		firstText   : "Primeiro",
+		firstText   : $("#script").data("footable-first"),
 		nextText    : "&raquo;",
 		previousText: "&laquo;",
-		lastText    : "Último"
+		lastText    : $("#script").data("footable-last")
 
 	});
 
@@ -31,9 +31,9 @@ $(function()
 
 	});
 
-	$("button[type='submit']").click(function()
+	$(document).submit("form", function()
 	{
-		$(this).button("loading");
+		$(this).find("button[type='submit']").button("loading");
 
 	});
 
