@@ -1,77 +1,53 @@
-ZendSkeletonApplication
+LCG TESTE
 =======================
 
-Introduction
+Introdução
 ------------
-This is a simple, skeleton application using the ZF2 MVC layer and module
-systems. This application is meant to be used as a starting place for those
-looking to get their feet wet with ZF2.
+Está é uma simples aplicação teste para empresa LCG IT SERVICE baseada em Zend Framework e Twitter Bootstrap.
 
-Installation
+Instalação
 ------------
 
-Using Composer (recommended)
+Usando Git e Composer
 ----------------------------
-The recommended way to get a working copy of this project is to clone the repository
-and use `composer` to install dependencies using the `create-project` command:
+A forma recomendada para obter uma cópia de trabalho do projeto é clonar o repositório 
+e usar `Composer` para instalar as dependências usando o comando `composer install`:
 
-    curl -s https://getcomposer.org/installer | php --
-    php composer.phar create-project -sdev --repository-url="https://packages.zendframework.com" zendframework/skeleton-application path/to/install
+    cd Lcg.Rempel/
+    git clone git://github.com/RempelOliveira/Lcg.Rempel.git
 
-Alternately, clone the repository and manually invoke `composer` using the shipped
-`composer.phar`:
+    cd Lcg.Rempel
 
-    cd my/project/dir
-    git clone git://github.com/zendframework/ZendSkeletonApplication.git
-    cd ZendSkeletonApplication
     php composer.phar self-update
     php composer.phar install
 
-(The `self-update` directive is to ensure you have an up-to-date `composer.phar`
-available.)
+Download direto e Composer
+----------------------------
+Caso seja necessário, apenas efetue o download diretamente do repositório através da seguinte url:
 
-Another alternative for downloading the project is to grab it via `curl`, and
-then pass it to `tar`:
+	https://github.com/RempelOliveira/Lcg.Rempel/archive/master.zip
 
-    cd my/project/dir
-    curl -#L https://github.com/zendframework/ZendSkeletonApplication/tarball/master | tar xz --strip-components=1
+    php composer.phar self-update
+    php composer.phar install
 
-You would then invoke `composer` to install dependencies per the previous
-example.
+Importante
+----------------
+Crie um diretório nomeado Lcg.Rempel na raiz do seu localhost e copie os arquivos na raiz deste mesmo diretório.
+Caso haja necessidade de alterar a localização da aplicação, é necessário que sejam alteradas a constante `BaseUrl` inserida no arquivo `index.php`, localizado no seguinte diretório:
 
-Using Git submodules
---------------------
-Alternatively, you can install using native git submodules:
+	public/
 
-    git clone git://github.com/zendframework/ZendSkeletonApplication.git --recursive
-
-Web Server Setup
+Banco de dados
 ----------------
 
-### PHP CLI Server
+Uma cópia atualizada do banco de dados `database.sql` encontra-se no seguinte diretório:
 
-The simplest way to get started if you are using PHP 5.4 or above is to start the internal PHP cli-server in the root directory:
+	data/database/
 
-    php -S 0.0.0.0:8080 -t public/ public/index.php
+Basta criar o banco de dados nomeando-o `lcg.rempel` e importar para o mesmo,
+o arquivo localizado no diretório descrito acima.
 
-This will start the cli-server on port 8080, and bind it to all network
-interfaces.
+Para alterar os dados de acesso ao banco de dados, basta alterar as configurações localizadas no arquivo `local.php`,
+localizado no seguinte diretório:
 
-**Note: ** The built-in CLI server is *for development only*.
-
-### Apache Setup
-
-To setup apache, setup a virtual host to point to the public/ directory of the
-project and you should be ready to go! It should look something like below:
-
-    <VirtualHost *:80>
-        ServerName zf2-tutorial.localhost
-        DocumentRoot /path/to/zf2-tutorial/public
-        SetEnv APPLICATION_ENV "development"
-        <Directory /path/to/zf2-tutorial/public>
-            DirectoryIndex index.php
-            AllowOverride All
-            Order allow,deny
-            Allow from all
-        </Directory>
-    </VirtualHost>
+	config/autoload/

@@ -16,6 +16,6 @@ return array
     'db' => array
 	(
 		'username' => 'root',
-		'password' => 'pass',
+		'password' => '',
     ),
 );
