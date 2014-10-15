@@ -58,3 +58,11 @@ Para alterar os dados de acesso ao banco de dados, basta alterar as configuraçõe
 localizado no seguinte diretório:
 
 	config/autoload/
+
+Idiomas
+----------------
+
+Este sistema está implementado para trabalhar com dois idiomas, sendo eles `Português Brasil: pt_BR` e `Inglês USA: en_US`,
+para alterá-lo, uma vez que não foi implementado na view, basta localizar o arquivo `module.config.php` e modificar a entrada `pt_BR` para `en_US` no seguinte diretório:
+
+	module\Logs\config
