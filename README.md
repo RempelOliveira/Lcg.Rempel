@@ -30,6 +30,13 @@ Caso seja necessário, apenas efetue o download diretamente do repositório atravé
     php composer.phar self-update
     php composer.phar install
 
+É comum em uma instalção windows do Composer, que o mesmo também esteja instalado no explorer do windows,
+sendo assim, existe a facilidade de apenas clicar com o botão direito do mouse sobre o arquivo `composer.json`, selecionar a opção `User Composer Here` e passar o comando:
+
+	composer install
+
+Isto basta para que as dependências do projeto sejam baixadas.
+
 Importante
 ----------------
 Crie um diretório nomeado Lcg.Rempel na raiz do seu localhost e copie os arquivos na raiz deste mesmo diretório.
