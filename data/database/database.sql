@@ -60,7 +60,7 @@ CREATE TABLE `logs` (
   PRIMARY KEY (`id_log`),
   KEY `id_linha_idx` (`id_linha`),
   CONSTRAINT `id_linha` FOREIGN KEY (`id_linha`) REFERENCES `linhas` (`id_linha`) ON DELETE NO ACTION ON UPDATE NO ACTION
-) ENGINE=InnoDB AUTO_INCREMENT=3 DEFAULT CHARSET=latin1;
+) ENGINE=InnoDB DEFAULT CHARSET=latin1;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 --
@@ -69,7 +69,6 @@ CREATE TABLE `logs` (
 
 LOCK TABLES `logs` WRITE;
 /*!40000 ALTER TABLE `logs` DISABLE KEYS */;
-INSERT INTO `logs` VALUES (1,1,'2014-10-14 17:32:36',NULL,'Teste','2','3'),(2,1,'2014-10-14 17:33:28',NULL,'Teste 2','1','3');
 /*!40000 ALTER TABLE `logs` ENABLE KEYS */;
 UNLOCK TABLES;
 /*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;
@@ -82,4 +81,4 @@ UNLOCK TABLES;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
 /*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
 
--- Dump completed on 2014-10-14 17:43:36
+-- Dump completed on 2014-10-15 10:10:50
