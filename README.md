@@ -40,7 +40,7 @@ Isto basta para que as dependências do projeto sejam baixadas.
 Importante
 ----------------
 Crie um diretório nomeado Lcg.Rempel na raiz do seu localhost e copie os arquivos na raiz deste mesmo diretório.
-Caso haja necessidade de alterar a localização da aplicação, é necessário que sejam alteradas a constante `BaseUrl` inserida no arquivo `index.php`, localizado no seguinte diretório:
+Caso haja necessidade de alterar a localização da aplicação, é necessário que seja alterada a constante `BaseUrl` inserida no arquivo `index.php`, localizado no seguinte diretório:
 
 	public/
 
